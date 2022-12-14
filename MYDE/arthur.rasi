@@ -1,0 +1,184 @@
+/**
+ * ROFI Color theme
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+
+* {
+    foreground:  #FFFFFF;
+    backlight:   #282A36;
+    background-color:  transparent;
+    dark: #1c1c1c;
+    // Black
+    black:       #282A36;
+    lightblack:  #282A36;
+    tlightblack:  #21222C;
+    //
+    // Red
+    red:         #FF79C6;
+    lightred:    #FFFFFF;
+    //
+    // Green
+    green:       #FF5555;
+    lightgreen:  #FFFFFF;
+    //
+    // Yellow
+    yellow:      #e8ae5b;
+    lightyellow:     #ffa75d;
+    //
+    // Blue
+    blue:      #323232;
+    lightblue:     #D6ACFF;
+    //
+    // Magenta
+    magenta:      #deb887;
+    lightmagenta:     #996600;
+    //
+    // Cyan
+    cyan:      #b0c4de;
+    tcyan:      #ccb0c4de;
+    lightcyan:     #b0c4de;
+    //
+    // White
+    white:      #bbaa99;
+    lightwhite:     #ddccbb;
+    //
+    // Bold, Italic, Underline
+    highlight:     underline bold #FABD2F;
+
+    transparent: #00000000;
+    font: "Roboto Condensed Bold 11";
+}
+window {
+    width: 20%;
+    location: center;
+    anchor:   center;
+    //transparency: "screenshot";
+    padding: 0px;
+    border:  2px;
+    border-radius: 0px;
+    border-color: #1D2021;
+    background-color: #1D2021;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+message {
+    border-color: @foreground;
+//    border:  0px 2px 2px 2px;
+//    border-radius: 10px;
+    padding: 5;
+    background-color: @tcyan;
+}
+message {
+    font: "Source Code Pro 8";
+    color: @black;
+}
+inputbar {
+    color: @lightgreen;
+    padding: 10px;
+    background-color: #1D2021;
+    border: 2px 2px 2px 2px;
+   // border-radius:  15px 15px 0px 0px;
+    border-color: #928374;
+    font: "Source Code Pro 18";
+}
+entry,prompt,case-indicator {
+    text-font: inherit;
+    text-color:#FB4934;
+}
+prompt {
+    margin:     0px 0.3em 0em 0em ;
+}
+listview {
+    padding: 5px;
+//    border-radius: 0px 0px 15px 15px;
+    border-color: #928374;
+    border: 0px 2px 2px 2px;
+    background-color: #1D2021;
+    dynamic: false;
+    lines: 8;
+    columns: 1;
+}
+element {
+    padding: 3px;
+    vertical-align: 0.5;
+    border: 2px;
+    border-radius: 0px;
+    background-color: #3C3630;
+    color: #EBDBB2;
+    font:inherit;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element selected.normal {
+    background-color: #D65D0E;
+}
+element normal active {
+    foreground: @lightblue;
+}
+element normal urgent {
+    foreground: @lightred;
+}
+element alternate normal {
+}
+element alternate active {
+    foreground: @lightblue;
+}
+element alternate urgent {
+    foreground: @lightred;
+}
+// current working window
+element selected active {
+    background-color: #CC241D;
+    foreground: @dark;
+}
+element selected urgent {
+    background-color: @lightred;
+    foreground: @dark;
+}
+element normal normal {
+
+}
+vertb {
+    expand: false;
+    children: [ dummy0, mode-switcher, dummy1  ];
+}
+dummy0,  dummy1 {
+    expand: true;
+}
+mode-switcher {
+    expand: false;
+    orientation: vertical;
+    spacing: 0px;
+    border: 0px 0px 0px 0px;
+}
+button {
+    font: "FontAwesome 22";
+    padding: 6px;
+    border: 2px 0px 2px 2px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: @tlightblack;
+    border-color: @foreground;
+    color: @foreground;
+    horizontal-align: 0.5;
+}
+button selected normal {
+    color: @dark;
+    border: 2px 0px 2px 2px;
+    background-color: @backlight;
+    border-color: @foreground;
+}
+error-message {
+    expand: true;
+    background-color: #FF5555;
+    border-color: darkred;
+    border: 2px;
+    padding: 1em;
+}

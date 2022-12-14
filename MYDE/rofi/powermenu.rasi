@@ -1,0 +1,95 @@
+/*******************************************************
+ * ROFI configs i3 powermenu for EndeavourOS
+ * Maintainer: joekamprad <joekamprad@endeavouros.com>
+ *******************************************************/
+configuration {
+    font:                           "Roboto Condensed Bold 12";
+    show-icons:                     false;
+    icon-theme: 		    "Qogir";
+    scroll-method:                  0;
+    disable-history:                false;
+    sidebar-mode: 		    false;
+}
+
+window {
+    background-color:               #282828;
+    border:                         5;
+    border-color:		    #282828;
+    padding:                        0;
+    transparency:                   "real";
+    width:                          550px;
+    location:                       center;
+/*y-offset:                       18;*/
+/*x-offset:	                    850;*/
+}
+listview {
+    border:			    0;
+    background-color:               #282828;
+    lines:                          1;
+    columns:                        4;
+    scrollbar:                     false;
+}
+element {
+    background-color:               #282828;
+    border:  0;
+    padding: 15px ;
+}
+element-text {
+    background-color: inherit;
+    text-color:       #EBDBB2;
+}
+element.normal.normal {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.normal.urgent {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.normal.active {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.selected.normal {
+    background-color: #FB4934;
+    text-color:       #fbf1c7;
+}
+element.selected.urgent {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.selected.active {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.alternate.normal {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.alternate.urgent {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+element.alternate.active {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+mode-switcher {
+    border:       2px 0px 0px ;
+    border-color: #000000;
+}
+button {
+    spacing:    0;
+    text-color: #fbf1c7;
+}
+button.selected {
+    background-color: #282828;
+    text-color:       #fbf1c7;
+}
+case-indicator {
+    spacing:    0;
+    text-color: #282828;
+}
+mainbox {
+  children: [listview];
+}
