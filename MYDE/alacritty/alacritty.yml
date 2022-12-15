@@ -43,19 +43,19 @@ colors:
 
 font:
   normal:
-    family: JetBrainsMonoNL Nerd Font 
+    family: Monospace 
     style: Regular
 
   bold:
-    family: JetBrainsMonoNL Nerd Font
+    family: Monospace
     style: Bold
 
   italic:
-    family: JetBrainsMonoNL Nerd Font
+    family: Monospace
     style: Italic
 
   bold_italic:
-    family: JetBrainsMonoNL Nerd Font
+    family: Monospace
     style: Bold Italic
 
   size: 11
