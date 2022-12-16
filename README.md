@@ -54,16 +54,16 @@ Just a very minimal asthetic Configuration of i3-gaps.
 | mod+w        | firefox                |
 |mod+n         | pcmanfm                |
 
-## **Workspaces**
-| Workspace Number | Assigned Apps |
-| :-:              | :-:           |
-| 1                | Alacritty              |
-| 2                | Firefox               |
-| 3                |  Vscode             | 
-| 4                | Thunar  
-| 5                |  Telegram |
-| 6                | Gimp |
-| 7                | Onlyoffice, Atril, Marktext |
+## **Apps assigned to Workspaces**
+| Workspace Number | Assigned Apps                                             |
+| :-:              | :-                                                       |
+| 1                | Alacritty                                                 |
+| 2                | Firefox                                                   |
+| 3                |  Vscode                                                   | 
+| 4                | Thunar                                                    | 
+| 5                |  Telegram                                                 |
+| 6                | Gimp                                                      |
+| 7                | Onlyoffice, Atril, Marktext                               |
 | 8                | Lxappearance,Stacer,Transmission,Yad,Gnome-Disks,Nitrogen |
 
 
