@@ -11,7 +11,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
 - **Window Manager:** [i3-gaps](https://github.com/Airblader/i3)
 - **Bar:** [polybar](https://github.com/polybar/polybar)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
-- **Compositor:** [picom-jonaburg](https://github.com/jonaburg/picom)
+- **Compositor:** [picom-jonaburg-fix](https://github.com/Arian8j2/picom-jonaburg-fix)
 - **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
 - **Icons**: [papirus](https://www.gnome-look.org/p/1166289/)
 - **Themes**: [Gruvbox Dark Borderless Theme](https://www.gnome-look.org/p/1681313/)
