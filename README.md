@@ -29,7 +29,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
 - nitrogen
 - ttf-roboto
 - ttf-font-awesome
-- picom-jonaburg
+- picom-jonaburg-fix
 
 ## **Keybindings**
 
