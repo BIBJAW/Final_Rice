@@ -2,7 +2,6 @@
 Just a very minimal asthetic Configuration of i3-gaps.
 
 **Point to be noted:** Don't apply the configs blindly.It's created in an Arch system, so I don't know what will be different in other distros. Also I hope that you at least know how modules work and how to apply them. Else you are good to go with it. 
-(Codes are a bit messy, I will fix them within 7th January )
 
 ## Must do to make it work: 
  -  Make these files executable using ```chmod +x```  command ==> ```/i3/scripts/powermenu``` & ```/polybar/launch.sh```
@@ -57,12 +56,12 @@ Just a very minimal asthetic Configuration of i3-gaps.
 
 ## **Apps assigned to Workspaces**
 | Workspace Number | Assigned Apps                                             |
-| :-:              | :-                                                        |
+| :-:              | :-:                                                       |
 | 1                | Alacritty                                                 |
 | 2                | Firefox                                                   |
 | 3                |  Vscode                                                   | 
-| 4                | Thunar                                                    | 
-| 5                |  Telegram                                                 |
+| 4                | pcmanfm                                                   | 
+| 5                | Telegram                                                  |
 | 6                | Gimp                                                      |
 | 7                | Onlyoffice, Atril, Marktext                               |
 | 8                | Lxappearance,Stacer,Transmission,Yad,Gnome-Disks,Nitrogen |
