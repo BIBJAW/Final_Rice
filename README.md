@@ -16,7 +16,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
  3. Place the ahsan.rasi (rofi theme) in /usr/share/rofi/themes (that's where I keep my rofi theme usually)
  
 
-## **Descriptions:** 
+## ** Descriptions: ** 
 - **OS:** Arch Linux
 - **Window Manager:** [i3-gaps](https://github.com/Airblader/i3)
 - **Bar:** [polybar](https://github.com/polybar/polybar)
