@@ -23,7 +23,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
 - **Compositor:** [picom-jonaburg-fix](https://github.com/Arian8j2/picom-jonaburg-fix)
 - **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
-- **Icons**: [papirus](https://www.gnome-look.org/p/1166289/)
+- **Icons**: [papirus brown](https://www.gnome-look.org/p/1166289/)
 - **Themes**: [Gruvbox Dark Borderless Theme](https://www.gnome-look.org/p/1681313/)
 - **Backgrounds Repo**: [backgrounds](https://github.com/BIBJAW/backgrounds) 
 - **Music Player:** [cmus](https://cmus.github.io/)
