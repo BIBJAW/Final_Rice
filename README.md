@@ -3,8 +3,17 @@ Just a very minimal asthetic Configuration of i3-gaps.
 
 **Point to be noted:** Don't apply the configs blindly.It's created in an Arch system, so I don't know what will be different in other distros. Also I hope that you at least know how modules work and how to apply them. Else you are good to go with it. 
 
-## Must do to make it work: 
- -  Make these files executable using ```chmod +x```  command ==> ```/i3/scripts/powermenu``` & ```/polybar/launch.sh```
+## installation: 
+- **step:1**
+```
+ git clone https://github.com/BIBJAW/Final_Rice
+ chmod +x ~/Final_Rice/MYDE/i3/scripts/powermenu
+ chmod +x ~/Final_Rice/MYDE/polybar/launch.sh
+ ```
+ - **step:2**
+ 1. Place the **alacritty**,**i3**,**polybar**,**picom**,**rofi** folder in ~/.config (remove or backup similar folders first or you can change the names and revert back if something goes wrong)
+ 2. Place the ahsan.rasi (rofi theme) in /usr/share/rofi/themes (that's where I keep my rofi theme usually)
+ 
 
 ## **Descriptions:** 
 - **OS:** Arch Linux
