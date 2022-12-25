@@ -26,20 +26,24 @@ Just a very minimal asthetic Configuration of i3-gaps.
 - **Icons**: [papirus](https://www.gnome-look.org/p/1166289/)
 - **Themes**: [Gruvbox Dark Borderless Theme](https://www.gnome-look.org/p/1681313/)
 - **Backgrounds Repo**: [backgrounds](https://github.com/BIBJAW/backgrounds) 
+- **Music Player:** [cmus](https://cmus.github.io/)
+- **Visualizer:** [cava](https://github.com/karlstav/cava)
 
-## **Packages Used** :
+## **Packages Used for the rice: **
 - xorg-server
-- xorg-xinit
 - i3-gaps
 - i3lock
 - polybar
 - rofi
+- pcmanfm
 - alacritty
 - lxappearance-gtk3
 - nitrogen
 - ttf-roboto
 - ttf-font-awesome
 - picom-jonaburg-fix
+- cava
+- cmus 
 
 ## **Keybindings**
 
