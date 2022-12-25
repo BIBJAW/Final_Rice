@@ -12,7 +12,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
  ```
  - **step:2**
  1. Now open your file manager and go to ~/Final_Rice/MYDE.
- 2. Place the **alacritty**,**i3**,**polybar**,**picom**,**rofi** folder in ~/.config (remove or backup similar folders first or you can change the names and revert back if something goes wrong)
+ 2. Copy the **alacritty**,**i3**,**polybar**,**picom**,**rofi** folder in ~/.config (remove or backup similar folders first or you can change the names and revert back if something goes wrong)
  3. Place the ahsan.rasi (rofi theme) in /usr/share/rofi/themes (that's where I keep my rofi theme usually)
  
 
