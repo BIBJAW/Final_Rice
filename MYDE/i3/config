@@ -168,7 +168,7 @@ bindsym $mod+p focus parent
 
 ## App shortcuts
 bindsym $mod+w exec /usr/bin/firefox
-bindsym $mod+n exec /usr/bin/thunar
+bindsym $mod+n exec /usr/bin/pcmanfm
 bindsym Print exec flameshot full --path ~/Pictures/screenshots
 bindsym $mod+Print exec flameshot gui --path ~/Pictures/screenshots
 
@@ -190,7 +190,7 @@ assign [class="Alacritty"] $ws1
 assign [class="(?i)firefox"] $ws2
 assign [class="Anaconda-Navigator"] $ws2
 assign [class="Code"] $ws3
-assign [class="Thunar"] $ws4
+assign [class="Pcmanfm"] $ws4
 assign [class="TelegramDesktop"] $ws5
 assign [class="Inkscape"] $ws6
 assign [class="Gimp"] $ws6
@@ -208,7 +208,7 @@ for_window [class=Alacritty] focus
 for_window [class=firefox] focus
 for_window [class=Anaconda-Navigator] focus
 for_window [class=Code] focus
-for_window [class=Thunar] focus
+for_window [class=Pcmanfm] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=Inkscape] focus
 for_window [class=Gimp] focus
