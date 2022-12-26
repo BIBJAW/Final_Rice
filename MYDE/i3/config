@@ -212,6 +212,7 @@ for_window [class=Pcmanfm] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=Inkscape] focus
 for_window [class=Gimp] focus
+for_window [class=libreoffice-startcenter|Soffice] focus
 for_window [class=marktext] focus
 for_window [class=Lxappearance] focus
 for_window [class=stacer] focus
