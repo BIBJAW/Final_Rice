@@ -6,9 +6,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
 ## installation: 
 - **step:1**
 ```
- git clone https://github.com/BIBJAW/Final_Rice
- chmod +x ~/Final_Rice/MYDE/i3/scripts/powermenu
- chmod +x ~/Final_Rice/MYDE/polybar/launch.sh
+ git clone https://github.com/BIBJAW/Final_Rice && chmod +x ~/Final_Rice/MYDE/i3/scripts/powermenu && chmod +x ~/Final_Rice/MYDE/polybar/launch.sh
  ```
  - **step:2**
  1. Now open your file manager and go to ~/Final_Rice/MYDE.
