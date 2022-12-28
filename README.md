@@ -83,16 +83,16 @@ Just a very minimal asthetic Configuration of i3-gaps.
 ## Screenshots
 
 ### UI
-![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/UIview.png)
+![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/uiview.png)
 ### Desktop
-![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/DesktopView.png)
+![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/desktop.png)
 ### Terminal
-![Terminal](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/Terminals.png)
+![Terminal](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/terminals.png)
 ### File Manager
-![File Manager](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/PcmanFM.png)
+![File Manager](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/pcman.png)
 ### VS Code
-![VS Code](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/VisualStudio.png)
+![VS Code](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/vscode.png)
 ### Rofi
-![Launcher](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/RofiMenu.png)
+![Launcher](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/rofi.png)
 ### Power Menu
-![Menu](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/PowerMenu.png)
+![Menu](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/Power.png)
