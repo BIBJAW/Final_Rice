@@ -92,8 +92,6 @@ Just a very minimal asthetic Configuration of i3-gaps.
 ![File Manager](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/PcmanFM.png)
 ### VS Code
 ![VS Code](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/VisualStudio.png)
-### Firefox
-![Firefox](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/firefox.png)
 ### Rofi
 ![Launcher](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/RofiMenu.png)
 ### Power Menu
