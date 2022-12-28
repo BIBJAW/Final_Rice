@@ -113,7 +113,7 @@ bindsym $mod+Shift+b exec ibus-setup
 
 # Rofi
 bindsym $mod+d exec --no-startup-id rofi -show drun -disable-history -show-icons
-bindsym Mod1+d exec --no-startup-id rofi -show run -disable-history -show-icons
+bindsym Mod1+d exec --no-startup-id rofi -show run -disable-history
 bindsym Mod1+w exec rofi -show window -show-icons
 
 # kill focused window
