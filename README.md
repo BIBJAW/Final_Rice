@@ -41,7 +41,8 @@ Just a very minimal asthetic Configuration of i3-gaps.
 - ttf-font-awesome
 - picom-jonaburg-fix
 - cava
-- cmus 
+- cmus
+- mate-polkit
 
 ## **Keybindings**
 
