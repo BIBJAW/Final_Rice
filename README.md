@@ -87,7 +87,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
 ### Desktop
 ![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/desktop.png)
 ### Terminal
-![Terminal](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/terminals.png)
+![Terminal](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/terminal.png)
 ### File Manager
 ![File Manager](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/pcman.png)
 ### VS Code
