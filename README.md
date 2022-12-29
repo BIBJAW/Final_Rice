@@ -1,5 +1,5 @@
 # I3-Simple DE
-Just a very minimal asthetic Configuration of i3-gaps.
+Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 
 **Point to be noted:** Don't apply the configs blindly.It's created in an Arch system, things and package names will be a bit different in other distros, You have to keep that in mind. Also I hope that you at least know how modules work and how to apply them. Else you are good to go with it. 
 
