@@ -10,7 +10,7 @@ Just a very minimal asthetic Configuration of i3-gaps.
  ```
  - **step:2**
  1. Now open your file manager and go to ~/Final_Rice/MYDE.
- 2. Copy the **alacritty**,**i3**,**polybar**,**picom**,**rofi** folder in ~/.config (remove or backup similar folders first or you can change the names and revert back if something goes wrong)
+ 2. Copy the **alacritty**,**i3**,**polybar**,**picom**,**rofi** folder in ~/.config (remove or backup folders with similar name first or you can change the names and revert back if something goes wrong)
  
 
 ## **Descriptions:** 
