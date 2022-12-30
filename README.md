@@ -81,7 +81,7 @@ Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 
 ## Screenshots
 
-### UI
+### UI View
 ![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/uiview.png)
 ### Desktop
 ![DE](https://github.com/BIBJAW/i3-gruvbox/blob/main/screenshots/desktop.png)
