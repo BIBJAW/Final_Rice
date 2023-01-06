@@ -1,7 +1,7 @@
 # I3-Simple DE
 Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 
-**Point to be noted:** Don't apply the configs blindly.It's created in an Arch system, things and package names will be a bit different in other distros, You have to keep that in mind. Also I hope that you at least know how modules work on polybar(you donnot have to know it necessarily know it but safe to know eg. lm_sensors is needed for diplaying that temp of cpu...) and how to apply them. Else you are good to go with it. 
+**Point to be noted:** Don't apply the configs blindly.It's created in an Arch system, things and package names will be a bit different in other distros, You have to keep that in mind. Also I hope that you at least know how modules work on polybar(you donnot have to know it necessarily but safe to know eg. lm_sensors is needed for displaying that temp of cpu...) and how to apply them. Else you are good to go with it. 
 
 ## installation: 
 - **step:1**
