@@ -75,7 +75,7 @@ Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 | 4                | pcmanfm                                                   | 
 | 5                | Telegram                                                  |
 | 6                | Gimp                                                      |
-| 7                | LibreOffice, Marktext                                     |
+| 7                | OnlyOffice, Ghostwriter                                     |
 | 8                | Lxappearance,Stacer,Transmission,Yad,Gnome-Disks,Nitrogen |
 
 
