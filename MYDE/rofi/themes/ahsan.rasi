@@ -6,9 +6,9 @@
 
 * {
     foreground:                        #FFFFFF;
-    backlight:                         #1d2021;
+    backlight:                         #0f0f0f;
     background-color:                  transparent;
-    dark:                              #1d2021;
+    dark:                              #0f0f0f;
     red:                               #cc241d;
     red-alt:                           #fb4934;
     orange:                            #d65d0e;
