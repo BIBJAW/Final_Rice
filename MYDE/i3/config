@@ -285,7 +285,7 @@ for_window [class="GLava" instance="GLava"] floating enable
 
 # Define colors variables:
 # bg tab mode
-set $color1     #1d2021 
+set $color1     #0f0f0f 
 set $color2     #d65d0e
 set $color3     #fbf1c7
 set $color4     #928374
