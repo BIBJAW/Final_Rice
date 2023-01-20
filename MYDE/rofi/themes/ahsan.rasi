@@ -13,7 +13,7 @@
     red-alt:                           #fb4934;
     orange:                            #d65d0e;
     gray-dark:                         #928374;
-    element-bg:                        #141414;
+    element-bg:                        #1B1B1B;
     cream:                             #ebdbb2;
     highlight:                         underline bold #FABD2F;
     transparent:                       #00000000;
