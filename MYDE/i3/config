@@ -198,7 +198,7 @@ set $ws8 "8"
 # bind program to workspace and focus to them on startup:
 assign [class="Alacritty"] $ws1
 assign [class="(?i)firefox"] $ws2
-assign [class="Anaconda-Navigator"] $ws2
+assign [class="Anaconda-Navigator"] $ws3
 assign [class="Code"] $ws3
 assign [class="Pcmanfm"] $ws4
 assign [class="TelegramDesktop"] $ws5
