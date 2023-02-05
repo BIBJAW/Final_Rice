@@ -36,7 +36,8 @@ new_window pixel 1
 # Set inner/outer gaps
 gaps inner 20
 gaps outer 0
-
+smart_gaps on
+hide_edge_borders smart
 ##############################
 #     Floating Modifier      # 
 ##############################
