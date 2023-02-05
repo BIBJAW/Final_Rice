@@ -249,9 +249,6 @@ exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 #exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 exec --no-startup-id dex --autostart --environment i3
 
-# uncomment the next line, use arandr to setup displays and save the file as monitor:
-exec --no-startup-id ~/.screenlayout/monitor.sh
-
 # set wallpaper
 exec nitrogen --restore &
 
