@@ -12,7 +12,7 @@
 
 
 configuration {
-    font:                          "Roboto Condensed Bold 13";
+    font:                          "Roboto Condensed Bold 12";
     show-icons:                    false;
     icon-theme: 		   "Qogir";
     scroll-method:                 0;
