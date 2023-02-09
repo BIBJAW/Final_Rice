@@ -1,0 +1,173 @@
+/**
+ * ROFI Color theme
+ * User: Habib
+ * Copyright: JuJu Ashbe !!
+ */
+
+* {
+    foreground:                        #FFFFFF;
+    backlight:                         #0f0f0f;
+    background-color:                  transparent;
+    dark:                              #0f0f0f;
+    red:                               #cc241d;
+    red-alt:                           #fb4934;
+    orange:                            #d65d0e;
+    gray-dark:                         #928374;
+    element-bg:                        #1d1d1d;
+    cream:                             #ebdbb2;
+    highlight:                         underline bold #FABD2F;
+    transparent:                       #00000000;
+    font:                              "Roboto Condensed Bold 11";
+}
+window {
+    width:                             350px;
+    location:                          west;
+    anchor:                            west;
+    padding:                           0px;
+    border:                            2px;
+    border-radius:                     2px;
+    border-color:                      @gray-dark;
+    background-color:                  @dark;
+    spacing:                           0;
+    children:                          [mainbox];
+    orientation:                       horizontal;
+    x-offset:			       10px;
+    y-offset:			       1px;
+}
+
+mainbox {
+    spacing:                           0;
+    children:                          [ inputbar, message, listview ];
+}
+
+message {
+    border-color:                      @foreground;
+    padding:                           5;
+    background-color:                  #ccb0c4de;
+}
+
+message {
+    font:                              "Source Code Pro 8";
+    color:                             @dark;
+}
+
+inputbar {
+    color:                             @foreground;
+    padding:                           10px;
+    background-color:                  @dark;
+    border-color: @gray-dark;
+    font:                              "Source Code Pro 18";
+}
+
+entry,prompt,case-indicator {
+    text-font:                         inherit;
+    text-color:                        @red-alt;
+}
+
+prompt {
+    margin:			      0px 5px 0px 0px;
+}
+
+listview {
+    padding:                           1px;
+    border:                            0px 2px 2px 2px;
+    background-color:                  @dark;
+    dynamic:                           false;
+    lines:                             32;
+    columns:                           1;
+}
+
+element {
+    padding:                           2px;
+    vertical-align:                    0.5;
+    border:                            3px;
+    border-radius:                     0px;
+    background-color:                  @element-bg;
+    color:                             @cream;
+    font:inherit;
+}
+
+element-text {
+    background-color:                  inherit;
+    text-color:                        inherit;
+}
+
+element selected.normal {
+    background-color:                  @orange;
+}
+
+element normal active {
+    foreground:                        @orange;
+}
+
+element normal urgent {
+    foreground:                        @foreground;
+}
+
+element alternate normal {
+}
+
+element alternate active {
+    foreground:                        @orange;
+}
+
+element alternate urgent {
+    foreground:                        @foreground;
+}
+
+// current working window
+element selected active {
+    background-color:                  @red;
+    foreground:                        @dark;
+}
+
+element selected urgent {
+    background-color:                  @foreground;
+    foreground:                        @dark;
+}
+
+element normal normal {
+
+}
+
+vertb {
+    expand:                            false;
+    children:                          [ dummy0, mode-switcher, dummy1  ];
+}
+
+dummy0,  dummy1 {
+    expand:                            true;
+}
+
+mode-switcher {
+    expand:                            false;
+    orientation:                       vertical;
+    spacing:                           0px;
+    border:                            0px 0px 0px 0px;
+}
+
+button {
+    font:                              "FontAwesome 22";
+    padding:                           6px;
+    border:                            0px 0px 2px 2px;
+    border-radius:                      4px 4px 4px 4px;
+    background-color:                  @dark;
+    border-color:                      @foreground;
+    color:                             @foreground;
+    horizontal-align:                  0.5;
+}
+
+button selected normal {
+    color:                             @dark;
+    border:                            2px 0px 2px 2px;
+    background-color:                  @dark;
+    border-color:                      @foreground;
+}
+
+error-message {
+    expand:                            true;
+    background-color:                  @red-alt;
+    border-color:                      @dark;
+    border:                            2px;
+    padding:                           1em;
+}
