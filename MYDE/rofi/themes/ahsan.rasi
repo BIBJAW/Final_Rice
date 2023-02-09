@@ -20,7 +20,7 @@
     font:                              "Roboto Condensed Bold 11";
 }
 window {
-    width:                             500px;
+    width:                             450px;
     location:                          center;
     anchor:                            center;
     //transparency:                    "screenshot";
@@ -78,7 +78,7 @@ listview {
     border:                            0px 2px 2px 2px;
     background-color:                  @dark;
     dynamic:                           false;
-    lines:                             15;
+    lines:                             10;
     columns:                           1;
 }
 
