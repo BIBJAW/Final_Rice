@@ -114,10 +114,10 @@ typeset -A menu
 # Menu with keys/commands
 
 menu=(
-  [ Shutdown]="systemctl poweroff"
-  [ Reboot]="systemctl reboot"
-  [ Suspend]="systemctl suspend"
-  [ Logout]="i3-msg exit"
+  [Shutdown]="systemctl poweroff"
+  [Reboot]="systemctl reboot"
+  [Suspend]="systemctl suspend"
+  [Logout]="i3-msg exit"
 )
 
 menu_nrows=${#menu[@]}
