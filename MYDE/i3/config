@@ -34,7 +34,7 @@ new_window pixel 1
 #         Gaps
 ###############################
 # Set inner/outer gaps
-gaps inner 10
+gaps inner 15
 gaps outer 0
 hide_edge_borders smart
 
