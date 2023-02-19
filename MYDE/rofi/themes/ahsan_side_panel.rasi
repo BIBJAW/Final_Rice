@@ -17,7 +17,7 @@
     cream:                             #ebdbb2;
     highlight:                         underline bold #FABD2F;
     transparent:                       #00000000;
-    font:                              "Roboto Condensed Bold 11";
+    font:                              "Roboto Condensed Bold 10";
 }
 window {
     width:                             350px;
@@ -32,7 +32,7 @@ window {
     children:                          [mainbox];
     orientation:                       horizontal;
     x-offset:			       10px;
-    y-offset:			       1px;
+    y-offset:			       10px;
 }
 
 mainbox {
@@ -73,23 +73,29 @@ listview {
     border:                            0px 2px 2px 2px;
     background-color:                  @dark;
     dynamic:                           false;
-    lines:                             32;
+    lines:                             30;
     columns:                           1;
 }
 
 element {
-    padding:                           2px;
+    padding:                           0px;
     vertical-align:                    0.5;
-    border:                            3px;
+    border:                            2px;
     border-radius:                     0px;
     background-color:                  @element-bg;
     color:                             @cream;
     font:inherit;
 }
 
+element-icon {
+  size: 				25px;
+  padding: 				0 2px 0 0;
+}
+
 element-text {
     background-color:                  inherit;
     text-color:                        inherit;
+  padding: 			       5px 5px 5px 5px;
 }
 
 element selected.normal {
