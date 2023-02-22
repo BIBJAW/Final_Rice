@@ -18,7 +18,7 @@ Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 - **Window Manager:** [i3-gaps](https://github.com/Airblader/i3)
 - **Bar:** [polybar](https://github.com/polybar/polybar)
 - **Launcher:** [rofi](https://github.com/davatorium/rofi)
-- **Compositor:** [picom-jonaburg-fix](https://github.com/Arian8j2/picom-jonaburg-fix)
+- **Compositor:** picom
 - **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
 - **Icons**: [papirus](https://www.gnome-look.org/p/1166289/)
 - **Themes**: Orchis gtk theme
@@ -38,7 +38,7 @@ Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 - nitrogen
 - ttf-roboto
 - ttf-font-awesome
-- picom-jonaburg-fix (works with official picom as well)
+- picom
 - cava
 - cmus
 - mate-polkit
