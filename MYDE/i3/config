@@ -93,7 +93,7 @@ bindsym $mod+Shift+8    move container to workspace  $ws8
 assign [class="Alacritty"] $ws1
 assign [class="(?i)firefox"] $ws2
 assign [class="Anaconda-Navigator"] $ws3
-assign [class="Code"] $ws3
+assign [class="VSCodium"] $ws3
 assign [class="Emacs"] $ws3
 assign [class="Pcmanfm"] $ws4
 assign [class="TelegramDesktop"] $ws5
@@ -116,7 +116,7 @@ assign [class="Nitrogen"] $ws8
 for_window [class=Alacritty] focus
 for_window [class=firefox] focus
 for_window [class=Anaconda-Navigator] focus
-for_window [class=Code] focus
+for_window [class=VSCodium] focus
 for_window [class=Emacs] focus
 for_window [class=Pcmanfm] focus
 for_window [class=TelegramDesktop] focus
