@@ -101,6 +101,7 @@ assign [class="discord"] $ws5
 assign [class="Slack"] $ws5
 assign [class="Inkscape"] $ws6
 assign [class="Gimp"] $ws6
+assign [class="Darktable"] $ws6
 assign [class="libreoffice-startcenter|Soffice"] $ws7
 assign [class="Atril"] $ws7
 assign [class="marktext"] $ws7
@@ -124,6 +125,7 @@ for_window [class=discord] focus
 for_window [class=Slack] focus
 for_window [class=Inkscape] focus
 for_window [class=Gimp] focus
+for_window [class=Darktable] focus
 for_window [class=libreoffice-startcenter|Soffice] focus
 for_window [class=Atril] focus
 for_window [class=marktext] focus
@@ -183,15 +185,15 @@ bindsym $mod+p focus parent
 ##############################
 # resize window (you can also use the mouse for that):
 mode "resize" {
-        bindsym h resize grow width 5 px or 5 ppt
-        bindsym j resize shrink height 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink width 5 px or 5 ppt
+  bindsym h resize grow width 5 px or 5 ppt
+  bindsym j resize shrink height 5 px or 5 ppt
+  bindsym k resize grow height 5 px or 5 ppt
+  bindsym l resize shrink width 5 px or 5 ppt
 
 
  #back to normal: Enter or Escape
 	bindsym Return mode "default"
-        bindsym Escape mode "default"
+  bindsym Escape mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -284,7 +286,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Define colors variables:
 # bg tab mode
-set $color1     #0f0f0f 
+set $color1     #1d1d1d 
 set $color2     #d65d0e
 set $color3     #fbf1c7
 set $color4     #928374
