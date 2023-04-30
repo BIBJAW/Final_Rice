@@ -116,7 +116,7 @@ typeset -A menu
 menu=(
   [Shutdown]="systemctl poweroff"
   [Reboot]="systemctl reboot"
-  [Suspend]="systemctl suspend"
+  [Suspend]="i3lock -i ~/Pictures/backgrounds/coffee.png && systemctl suspend"
   [Logout]="i3-msg exit"
 )
 
