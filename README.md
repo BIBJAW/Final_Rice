@@ -1,3 +1,4 @@
+# ALERT!: All My configs will be maintained [here](https://github.com/BIBJAW/united_repo_of_configs) from now on....
 # I3-Simple DE
 Just a very minimal asthetic Configuration of i3-gaps using Gruvbox Theme.
 
